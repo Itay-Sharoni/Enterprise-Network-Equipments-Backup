@@ -27,4 +27,14 @@ itay@WSL:~/opt$ ./backup.py --firewall_ip fw1.test.local --api_key "....ucj34Zg=
 
 
 # Supported Devices
-* PaloAlto Firewalls
+* PaloAlto PanOS 9+
+* CISCO IOS
+* CISCO S300
+
+
+# Todo
+* Add Support for Fortigate Firewalls
+* Better Error Handling
+* Review and Fix Cleanup
+* Add Support for Batch mode (from CSV)
+* Create Systemd Service (Batch mode)
